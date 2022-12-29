@@ -3,7 +3,7 @@ You must deliver a properly functioning, responsive website for the assignment b
 
 The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
 
-* The HTML should be semantic and neat.
+The HTML should be semantic and neat.
 The CSS should follow the DRY principle and be easy to read.
 The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
 The site should be WCAG compliant, and accessibility should be taken into account.
@@ -22,7 +22,8 @@ When your site is ready, post it on the Moodle forum for peer review.
 Look at the work of your peers and write a review for them. If you post your website for peer review more than five days before the CA deadline, a teacher will write a review of your website for additional feedback.
 Make adjustments based on their feedback.
 Submit on Moodle.
-Submission
+
+## Submission
 You need to submit the following:
 
 A link to your GitHub repository. Your last commit must be before your deadline.
