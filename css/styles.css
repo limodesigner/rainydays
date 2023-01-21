@@ -14,7 +14,7 @@
 --clr-neutral-600: #333333;
 }
 
-article, figcaption, figure, footer, header, menu, nav, section, label {
+article, figcaption, figure, footer, header, menu, nav, section, label, breadcrumb {
   display: block;
 }
 
@@ -29,16 +29,6 @@ article, figcaption, figure, footer, header, menu, nav, section, label {
   body {
   height: 100%; 
 }
-/*
-header {
-  position: fixed;
-  width: 100%;
-  height: 150px;
-  z-index: 100;
-  background: var(--clr-neutral-100);
-  
-}
-*/
 
 body {
   font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -490,6 +480,10 @@ input:focus, textarea:focus {
     padding-left: 1rem;
   }
 
+nav {
+  z-index: 0;
+}
+
 .navWrap {
   display: grid;
   grid-template-columns: 100px minmax(auto, 1440px);
@@ -526,9 +520,9 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
 }
-
 nav ul li a {
-      border-bottom: none;;
+      border-bottom: none;
+      padding: 1rem;
 }
 
 nav ul li a:hover {
