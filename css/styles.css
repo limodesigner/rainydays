@@ -90,7 +90,7 @@ a:visited {
 }
 
 a:focus {
-  color: var(--clr-neutral-300);
+  color: var(--clr-accent-200);
   
 }
 
@@ -99,7 +99,7 @@ a:hover {
 }
 
 a:active {
-  color: var(--clr-neutral-300);
+  color: var(--clr-accent-200);
 }
 
 .button {
@@ -328,6 +328,10 @@ section.hero .heroj {
     height: auto;
     }
 
+    .product-item p {
+      padding: 0;
+    }
+
 .product-item .button {
   position: absolute;
   top: 50%;
@@ -392,6 +396,22 @@ section.hero .heroj {
 
 /* ----------------------------CHECKOUT SUCCESS-------------------------*/
 
+.checkout-text {
+  padding: 3rem;
+  line-height: 1;
+  text-align: center;
+  background-color: var(--clr-accent-700);
+  color: var(--clr-neutral-100);
+}
+
+.checkout-text h1 {
+  padding: 2rem;
+}
+
+.shopping {
+  margin: 2rem;
+  text-align: center;
+  }
 
 /* ----------------------------ABOUT & CONTACT---------------------------*/
 
@@ -435,7 +455,6 @@ section.hero .heroj {
 .about img {
   padding: .5rem;
 }
-
 
 .contact-bgr {
   background: url("../images/contactus-small.jpg") no-repeat center;
@@ -634,9 +653,34 @@ width: 50%;
 
 .product-item .small {
   display: block;
-  padding: 0;
+  padding-top: .5rem;
   font-size: smaller;
  }
+
+/* checkout */
+
+.checkout {
+  background-color: var(--clr-accent-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .checkout-bgr {
+  background: url("../images/rainydays-checkoutsucess-hero.jpg") no-repeat bottom;
+  height: 500px;
+  background-size: cover;
+  width: 50%;
+}
+
+.checkout-text {
+  padding: 2rem;
+  width: 50%;
+}
+
+
+
+/* about */
 
  .about {
   margin: auto;
@@ -672,6 +716,8 @@ width: 50%;
 .img-wrapper_founder {
  padding: 1rem;
 }
+
+/* contact */
 
 .contact-bgr {
   background: url("../images/contactus-img.jpg") no-repeat center;
