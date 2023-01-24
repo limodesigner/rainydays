@@ -7,11 +7,10 @@
    
 --clr-accent-200: #4AC8B9;
 --clr-accent-500: #0EBBA8; 
---clr-accent-700: #098274;
+--clr-accent-700: #098576;
 
 --clr-neutral-100: #ffffff; 
 --clr-neutral-300: #F0F0F0; 
---clr-neutral-600: #333333;
 }
 
 article, figcaption, figure, footer, header, menu, nav, section, label, breadcrumb {
@@ -48,6 +47,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+  
   .hidden {
     display: none;}
 }
@@ -81,7 +81,7 @@ a {
   }
 
   a:link {
-    color: var(--clr-neutral-100);
+    color: var(--crl-primary-900);
   }
 
 a:visited {
@@ -95,12 +95,11 @@ a:focus {
 }
 
 a:hover {
-  color: var(--clr-neutral-300);
+  color: var(--clr-accent-700);
 }
 
 a:active {
   color: var(--clr-neutral-300);
- 
 }
 
 .button {
@@ -111,16 +110,10 @@ a:active {
   color: var(--clr-primary-900);
   font-weight: bold;
   text-transform: uppercase;
-    filter: drop-shadow(0 0.10rem .10rem var(--clr-neutral-600));
+    filter: drop-shadow(0 0.10rem .10rem var(--crl-primary-900));
   border: 0;
   border-radius: 4px;
  }
-
-.button:hover,
-.button:focus-visible {
-  background-color: var(--clr-neutral-600);
-  color: var(--clr-neutral-300);
-}
 
 footer {
 padding: 1rem;
@@ -460,10 +453,10 @@ section.hero .heroj {
 .form__input {
   display: block;
   padding: .5rem;
-  border: solid 1px var(--clr-neutral-600);
+  border: solid 1px var(--clr-accent-700);
 }
 fieldset {
-  padding: .5rem ;
+  padding: .5rem;
   border: none;
 }
 
