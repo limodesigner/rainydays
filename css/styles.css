@@ -143,9 +143,9 @@ margin-top: auto;
   }
 
   .bag-menu {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .cart {
@@ -219,6 +219,7 @@ input#navToggle ~ label > span::after {
 
 #navToggle:checked ~ nav {
   right: 0;
+  display: block;
 }
 
 nav {
@@ -228,6 +229,7 @@ nav {
   right: -110%;
   width: 100%;
   transition: 0.32s ease-in-out;
+  display: none;
 }
 
 nav::after {
@@ -239,6 +241,7 @@ nav::after {
   width: 100vw;
   background-color: var(--clr-primary-200);
   background-size: cover;
+
 }
 
 nav ul {
