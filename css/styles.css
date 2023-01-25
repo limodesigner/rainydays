@@ -23,12 +23,10 @@ article, figcaption, figure, footer, header, menu, nav, section, label, breadcru
   box-sizing: border-box;
   font-size: 100%;
 }
- 
   html,
   body {
   height: 100%; 
 }
-
 body {
   font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
@@ -40,19 +38,15 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
-
 h1 {
   font-family: 'Roboto serif', Georgia, 'Times New Roman', Times, serif;
   font-size: 2.4rem;
   font-weight: 600;
   text-transform: uppercase;
-
 }
 h2 {
   font-family: 'Inter' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -65,39 +59,29 @@ h3 {
   letter-spacing: .13rem;
   margin-bottom: .5rem;
 }
-
 p {
   padding-bottom: 1rem;
   line-height: 1.4;
 }
-
 a {
     font-weight: 700;
     text-decoration: none;
-  }
-
+}
   a:link {
     color: var(--crl-primary-900);
   }
-
 a:visited {
   color: var(--crl-primary-900);
-  
 }
-
 a:focus {
   color: var(--clr-accent-200);
-  
 }
-
 a:hover {
   color: var(--clr-accent-700);
 }
-
 a:active {
   color: var(--clr-accent-200);
 }
-
 .button {
   cursor: pointer;
   padding: 0.5em 1em;
@@ -106,7 +90,7 @@ a:active {
   color: var(--clr-primary-900);
   font-weight: bold;
   text-transform: uppercase;
-    filter: drop-shadow(0 0.10rem .10rem var(--crl-primary-900));
+  filter: drop-shadow(0 0.10rem .10rem var(--crl-primary-900));
   border: 0;
   border-radius: 4px;
  }
@@ -119,35 +103,30 @@ margin-top: auto;
 }
 
 /* ----------------------------NAVIGATION-----------------------------*/
-
 .headeroffer {
   min-height: 30px;
   padding: .25rem;
   text-align: center;
   background-color: var(--clr-primary-200);
 }
-
 .logo {
   padding:1rem 0 1rem .75rem;
-   max-width: 180px;
+  max-width: 180px;
 }
-  
- .figure {
-    width: 100%;
-    font-size: small;    
-    margin: auto;
-  }
-
-  .bag-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cart {
-    height: 30px;
-    padding-right: .5rem;
-  }
+.figure {
+  width: 100%;
+  font-size: small;    
+  margin: auto;
+}
+.bag-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  height: 30px;
+  padding-right: .5rem;
+}
 
 .navWrap {
   position: -webkit-sticky;
@@ -164,18 +143,15 @@ margin-top: auto;
   align-items: center;
   justify-content: space-between;
 }
-
 input#navToggle {
   display: none;
 }
-
 input#navToggle ~ label {
   position: relative;
   padding: 0.25rem;
   width: 2.25rem;
   height: 1.70rem;
 }
-
 input#navToggle ~ label > span,
 input#navToggle ~ label > span::before,
 input#navToggle ~ label > span::after {
@@ -189,30 +165,24 @@ input#navToggle ~ label > span::after {
   background: var(--clr-primary-900);
   transition: 0.10s ease-in-out;
 }
-
 input#navToggle ~ label > span::before {
   top: -0.5rem;
 }
-
 input#navToggle ~ label > span::after {
   top: 0.5rem;
 }
-
 #navToggle:checked ~ label > span {
   width: 0;
   background: rgba(31, 31, 31, 0);
 }
-
 #navToggle:checked ~ label > span::before {
   transform: rotateZ(45deg);
   top: 0;
 }
-
 #navToggle:checked ~ label > span::after {
   transform: rotateZ(-45deg);
   top: 0;
 }
-
 #navToggle:checked ~ nav {
   right: 0;
   display: block;
@@ -227,7 +197,6 @@ nav {
   transition: 0.32s ease-in-out;
   display: none;
 }
-
 nav::after {
   content: "";
   position: absolute;
@@ -237,14 +206,11 @@ nav::after {
   width: 100vw;
   background-color: var(--clr-primary-200);
   background-size: cover;
-
 }
-
 nav ul {
     list-style-type: none;
     text-align: center;
 }
-
 nav ul li a {
   display: inline-block;
   width: 100%;
@@ -253,15 +219,12 @@ nav ul li a {
   transition: 0.32s ease-in-out;
 
 }
-
 nav ul li a:hover {
   color: var(--clr-accent-700);
   background: var(--clr-accent-200);
 }
 
-
 @media screen and (max-width: 768px) {
-
     /*breadcrumb hidden*/
       .hidden {
       display: none;
@@ -280,11 +243,10 @@ nav ul li a:hover {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr 4fr;
   justify-items: center;
-   }
-
+}
 section.hero .heroj {
     margin-top: .5rem;
-   }
+}
 .hero-text {
   text-align: center;
   padding: 2rem;
@@ -296,17 +258,12 @@ section.hero .heroj {
   grid-row: 2 / 3;
  } 
 
-/* ----------------------------POPUP----------------------------------*/
-
-
-/* ----------------------------CATEGORIES------------------------------*/
-
+/* ----------------------------CATEGORIES & PRODUCTS------------------------------*/
 .category-bgr {
   background: url("../images/softshell-women-category.jpg") no-repeat center;
   height: 219px;
   background-size: cover;
 }
-
 .category-text {
   padding: 1rem;
   line-height: 1;
@@ -321,25 +278,21 @@ section.hero .heroj {
 .product-categories {
   margin: .5rem;
 }
-
 .product-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  
+}
+.product-item {
+  padding: .5rem;
+  flex-direction: column;
+  flex: 180px 1 0;
+  position: relative;
+  height: auto;
   }
-  .product-item {
-    padding: .5rem;
-    flex-direction: column;
-    flex: 180px 1 0;
-    position: relative;
-    height: auto;
-    }
-
-    .product-item p {
-      padding: 0;
-    }
-
+.product-item p {
+  padding: 0;
+  }
 .product-item .button {
   position: absolute;
   top: 50%;
@@ -347,13 +300,11 @@ section.hero .heroj {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
  }
-
  .product-item .small {
   display: none;
  }
 
-/* ----------------------------PRODUCTS NEW----------------------------*/
-
+/* ----------------------------HERO-NEW----------------------------*/
 .hero-new {
   background: url("../images/rainydays-newprod-small.jpg") no-repeat center;
   background-color: var(--clr-neutral-100);
@@ -366,32 +317,55 @@ section.hero .heroj {
   justify-items: center;
 }
 
-/* ----------------------------PRODUCT CAROUSEL------------------------*/
-.carousel-header {
-  padding: .5rem;
+/* ----------------------------NEW ARRIVALS------------------------*/
+.new-arrivals h2 {
+  font-size: 1.2rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+
+  padding: 1rem;
   font-weight: bolder;
 }
 
-/* ----------------------------FOOTER----------------------------------*/
+/* ----------------------------NEWSLETTER----------------------------------*/
+.newsletter {
+  background-color: var(--clr-primary-200);
+  color: var(--clr-neutral-900);
+}
+.newsletter-bgr {
+  background: url("../images/rainydays-newsletter-signup.jpg") no-repeat center;
+  height: 219px;
+  background-size: cover;
+  display: none;
+}
+.newsletter-text h2 {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.newsletter-text {
+  padding: 3rem;
+  line-height: 1;
+  text-align: center;
+}
+.newsletter-form {
+  max-width: 50%;
+}
 
+/* ----------------------------FOOTER----------------------------------*/
 .social-icon {
   margin: .70rem;
  }
-
 .social {
  width: min(500px, 100%);
   margin: auto;
   display: flex;
  justify-content: space-evenly;
-    
 }
-
 .copyright {
   margin: .75rem 0 0 0;
   font-weight: lighter;
   text-align: center;
 }
-
 
 /* ----------------------------PRODUCT CATEGORY-------------------------*/
 
@@ -403,7 +377,6 @@ section.hero .heroj {
 
 
 /* ----------------------------CHECKOUT SUCCESS-------------------------*/
-
 .checkout-text {
   padding: 3rem;
   line-height: 1;
@@ -411,19 +384,15 @@ section.hero .heroj {
   background-color: var(--clr-accent-700);
   color: var(--clr-neutral-100);
 }
-
 .checkout-text h1 {
   padding: 2rem;
 }
-
 .shopping {
   margin: 2rem;
   text-align: center;
   }
 
 /* ----------------------------ABOUT & CONTACT---------------------------*/
-
-
 .about-bgr {
   background: url("../images/about-heroimg-small.jpg") no-repeat center;
   background-color: var(--clr-neutral-100);
@@ -437,7 +406,6 @@ section.hero .heroj {
   padding: 1rem;
   text-align: center;
 }
-
 .about {
   margin: 1rem;
   max-width: min(100%, 1440px);
@@ -445,21 +413,17 @@ section.hero .heroj {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .img-wrapper {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
 }
-
 .about-text {
   padding: .5rem;
 }
-
 .about p:last-of-type {
   padding: 0;
 }
-
 .about img {
   padding: .5rem;
 }
@@ -470,42 +434,36 @@ section.hero .heroj {
   height: 219px;
   background-size: cover;
 }
-
 .contact-text li {
   list-style-type: none;
 }
 
-/* -------------------------FORM ------------------------- */
-
+/* -------------------------FORMS ------------------------- */
 .form__input {
   display: block;
   padding: .5rem;
   border: solid 1px var(--clr-accent-700);
+  border-radius: 4px;
 }
 fieldset {
   padding: .5rem;
   border: none;
 }
-
 label {
   margin-top: .5rem;
 }
-
 label:first-of-type {
   margin-top: 0;
 }
-
 input[type="email"], input[type="name"] {
   width: 100%;
 }
-
 textarea {
   margin-bottom: 1rem;
   min-height: 12rem;
   min-width: 100%;
 }
-
-/*focus styles*/
+/*---focus styles---*/
 input:focus, textarea:focus {
   outline: solid 1px var(--clr-accent-700);
   border-color: var(--clr-accent-700);
@@ -513,52 +471,41 @@ input:focus, textarea:focus {
   box-shadow: 0 0 5px var(--clr-accent-700);
  }
 
-
 /* ----------------------------MEDIA QUERIES----------------------------*/
-
 @media screen and (min-width: 48em) {
   
-
-  .logo {
-    max-width: 320px;
-    padding: 1.5rem;
-  }
-
+.logo {
+  max-width: 320px;
+  padding: 1.5rem;
+}
 nav {
   z-index: 0;
 }
-
 .navWrap {
   display: grid;
   grid-template-columns: 100px minmax(auto, 1440px);
   justify-content: center;
   height: auto;
 }
-
 .bag-menu {
   padding-right: 1rem;
   display: flex;
   flex-direction: row-reverse;
 }
-
 .cart {
   width: 48px;
   height: 42px;
 }
-
 .navToggleLabel {
   display: none;
 }
-
 nav {
  position: initial;
  display: block;
 }
-
 nav h1 {
   font-size: 1.25rem;
 }
-
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -567,11 +514,9 @@ nav ul {
 nav ul li a {
   padding: .75rem;
 }
-
 nav ul li a:hover {
   background: transparent;
 }
-
 nav::after, nav ul li:last-of-type::before {
   display: none;
   padding: initial;
@@ -581,64 +526,53 @@ nav::after, nav ul li:last-of-type::before {
   display: none;
 }
 
-
-  ul.breadcrumb {
-      padding: 1rem;
-      list-style-type: none;
-      }
-      
-      ul.breadcrumb li {
-        font-size: 12px;
-        display: inline;
-      }
-
-      ul.breadcrumb li:before {
-        padding-right: 4px;
-        color: var(--clr-primary-900);
-        content: "/"; 
-        padding-right: 4px;
-      }
-
-      ul.breadcrumb li a:hover {
-        color: var(--clr-primary-900);
-        text-decoration: underline;
-      }
-
-     ul.breadcrumb li:first-child:before { 
-      content: ""; 
-      padding-right: 0; 
+ul.breadcrumb {
+  padding: 1rem;
+  list-style-type: none;
+}
+ul.breadcrumb li {
+  font-size: 12px;
+  display: inline;
+}
+ul.breadcrumb li:before {
+  padding-right: 4px;
+  color: var(--clr-primary-900);
+  content: "/"; 
+  padding-right: 4px;
+}
+ul.breadcrumb li a:hover {
+  color: var(--clr-primary-900);
+  text-decoration: underline;
+ }
+ ul.breadcrumb li:first-child:before { 
+  content: ""; 
+  padding-right: 0; 
+ }
     
-    }
-
-
-        
-  .hero {
-    background: url(../images/rainydays-heroimg.jpg) no-repeat center ;
-    background-size: cover;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr .5fr 3fr;
-  } 
-
-  .hero-new {
-    background: url(../images/rainydays-newprod.jpg) no-repeat center ;
-      background-size: cover;
-      text-align: center;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 1fr 1fr .5fr 3fr;
-  }
-
- .hero-text {
-    grid-column: 5 / 6;
-    grid-row: 2 / 3;
+.hero {
+  background: url(../images/rainydays-heroimg.jpg) no-repeat center ;
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr .5fr 3fr;
+} 
+.hero-new {
+  background: url(../images/rainydays-newprod.jpg) no-repeat center ;
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr .5fr 3fr;
+}
+.hero-text {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+.btncontainer{
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
  }
- .btncontainer{
-    grid-column: 5 / 6;
-    grid-row: 3 / 4;
- }
-
 
 .category {
   background-color: var(--clr-primary-900);
@@ -646,30 +580,41 @@ nav::after, nav ul li:last-of-type::before {
   justify-content: center;
   align-items: center;
 }
-
- .category-bgr {
+.category-bgr {
   background: url("../images/softshell-women-category.jpg") no-repeat right;
   height: 500px;
   background-size: cover;
   width: 50%;
 }
-
 .category-text {
   padding: 4rem;
-width: 50%;
+  width: 50%;
 }
-
 .category-text h1 {
   padding: 2rem;
 }
-
 .product-item .small {
   display: block;
   padding-top: .5rem;
   font-size: smaller;
  }
 
-/* checkout */
+.newsletter {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-bgr {
+  display: block;
+  background-color: var(--clr-neutral-100);
+  height: 400px;
+  background-size: cover;
+  width: 50%;
+}
+.newsletter-text {
+  width: 50%;
+}
 
 .checkout {
   background-color: var(--clr-accent-700);
@@ -677,22 +622,16 @@ width: 50%;
   justify-content: center;
   align-items: center;
 }
-
  .checkout-bgr {
   background: url("../images/rainydays-checkoutsucess-hero.jpg") no-repeat bottom;
   height: 500px;
   background-size: cover;
   width: 50%;
 }
-
 .checkout-text {
   padding: 2rem;
   width: 50%;
 }
-
-
-
-/* about */
 
  .about {
   margin: auto;
@@ -701,35 +640,27 @@ width: 50%;
   justify-content: center;
   align-items: center;
 }
-
 .about-bgr {
   background: url("../images/about-heroimg.jpg") no-repeat center;
   height: 500px;
   background-size: cover;
 }
-
 .about-wrapper {
-  
   display: inline-flex;
   align-content: flex-end;
- }
-
- .about-text {
+}
+.about-text {
   padding: 0 1rem 0 1rem;
- }
-
+}
 .location {
   padding: 1rem;
   max-width: 35%;
   height: 390px;
   align-self: center;
 }
-
 .img-wrapper_founder {
  padding: 1rem;
 }
-
-/* contact */
 
 .contact-bgr {
   background: url("../images/contactus-img.jpg") no-repeat center;
@@ -743,16 +674,14 @@ width: 50%;
   justify-content: center;
   align-items: top;
 }
-
 .contact-text {
   max-width: 50%;
   padding: .5rem 2rem;
   list-style-type: none;
 }
-
 fieldset {
   max-width: 50%;
-  min-width: 400px;;
+  min-width: 400px;
 }
 
 }
