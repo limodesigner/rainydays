@@ -46,11 +46,6 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 768px) {
-  
-  .hidden {
-    display: none;}
-}
 
 h1 {
   font-family: 'Roboto serif', Georgia, 'Times New Roman', Times, serif;
@@ -68,6 +63,7 @@ h3 {
   font-size: .75rem;
   text-transform: uppercase;
   letter-spacing: .13rem;
+  margin-bottom: .5rem;
 }
 
 p {
@@ -262,6 +258,15 @@ nav ul li a:hover {
   color: var(--clr-accent-700);
   background: var(--clr-accent-200);
 }
+
+
+@media screen and (max-width: 768px) {
+
+    /*breadcrumb hidden*/
+      .hidden {
+      display: none;
+    } 
+  }
  
 /* ----------------------------HERO-----------------------------------*/
 .hero {
@@ -512,6 +517,7 @@ input:focus, textarea:focus {
 /* ----------------------------MEDIA QUERIES----------------------------*/
 
 @media screen and (min-width: 48em) {
+  
 
   .logo {
     max-width: 320px;
@@ -546,6 +552,7 @@ nav {
 
 nav {
  position: initial;
+ display: block;
 }
 
 nav h1 {
@@ -573,6 +580,7 @@ nav::after, nav ul li:last-of-type::before {
 .figure {
   display: none;
 }
+
 
   ul.breadcrumb {
       padding: 1rem;
@@ -602,7 +610,8 @@ nav::after, nav ul li:last-of-type::before {
     
     }
 
-  
+
+        
   .hero {
     background: url(../images/rainydays-heroimg.jpg) no-repeat center ;
     background-size: cover;
