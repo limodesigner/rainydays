@@ -692,7 +692,8 @@ textarea:focus {
 
   }
 
- .product-container {
+ .product_container {
+  margin-left: 2rem;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
