@@ -493,6 +493,7 @@ section.hero .heroj {
 }
 
 .payment-detail {
+  margin-top: 1rem;
   padding: 1rem;
   grid-column: 1 / 7;
   grid-row: 4 / 5;
