@@ -331,6 +331,10 @@ section.hero .heroj {
   flex-wrap: wrap;
 }
 
+.product-text {
+  padding-bottom: 1.5rem;
+}
+
 .product-item {
   padding: .5rem;
   flex-direction: column;
