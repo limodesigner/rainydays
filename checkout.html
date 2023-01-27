@@ -137,22 +137,25 @@
     </div>
 
       <h3 class="payment-header">Payment Details</h3>
+<div class="visa">
+           <form action="form-contact.php" method="POST"> 
+          <fieldset>
+              <label for="name">Cardholder name</label>
+              <input type="name" name="name" id="name" class="form__input"  required>
+              <label for="ccn">Card number</label>
+              <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="1234 5678 0000 9000" class="form__input"> 
+          </fieldset>
 
-    <div class="order-form">form gets in here</div>
-    <form action="">
-    Cardholder name
-    Anita Normann
-    Card number
-    525 275 681 366
-
-    Save card details for future orders. 
-
-  </form>
-  </div>
-<div>
-    <a href="checkout-success.html" class="button">Place order</a></div>
-  </div>
+         <fieldset>
+         <div class="checkbox">
+          <input type="checkbox" id="checkbox name="checkbox" >
+          <label for="checkbox" class="check">Save card detail for future orders.</label>
+        </fieldset>
+       </div>
+</div> 
 </div>
+<div class="order-button">
+  <a href="checkout-success.html"  class="button">Place order</a></div>
     </main>
 
     <footer class="footer">

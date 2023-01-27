@@ -535,12 +535,24 @@ section.hero .heroj {
   grid-row: 8 / 9;
 }
 
-.order-form  {
-  padding: 1rem;
-  border: solid red;
+.visa {
+  display: block;
+  justify-content: left;
   grid-column: 1 / 7;
   grid-row: 10 / 11;
+}
 
+.checkbox {
+  display: flex;
+}
+
+.check {
+  padding-left: .5rem;
+}
+
+.order-button {
+  margin: 1rem;
+  padding-bottom: 1rem;
 }
 
 .checkout-text {
@@ -549,10 +561,6 @@ section.hero .heroj {
   text-align: center;
   background-color: var(--clr-accent-700);
   color: var(--clr-neutral-100);
-}
-
-.arrow {
-
 }
 
 .checkout-text h1 {
@@ -638,18 +646,13 @@ label:first-of-type {
   margin-top: 0;
 }
 
-input[type="email"],
-input[type="name"] {
-  width: 100%;
-}
-
 textarea {
   margin-bottom: 1rem;
   min-height: 12rem;
   min-width: 100%;
 }
 
-/*---focus styles---*/
+/*forms focus styles*/
 input:focus,
 textarea:focus {
   outline: solid 1px var(--clr-accent-700);
@@ -917,11 +920,6 @@ textarea:focus {
     max-width: 50%;
     padding: .5rem 2rem;
     list-style-type: none;
-  }
-
-  fieldset {
-    max-width: 50%;
-    min-width: 400px;
   }
 
 }
