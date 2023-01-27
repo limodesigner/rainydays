@@ -381,6 +381,7 @@ section.hero .heroj {
 .contact-wrapper {
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: top;
 }
@@ -908,6 +909,10 @@ textarea:focus {
 
   .img-wrapper_founder {
     padding: 1rem;
+  }
+
+  .contact-wrapper {
+    flex-direction: row;
   }
 
   .contact-bgr {
