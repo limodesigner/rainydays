@@ -442,7 +442,7 @@ section.hero .heroj {
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: 4px;
   font-weight: bolder;
 }
@@ -518,6 +518,10 @@ section.hero .heroj {
   grid-row: 6 / 7;
   background-color: var(--clr-primary-200);
   border-radius: 4px;
+}
+
+.arrow {
+  text-align: end;
 }
 
 .payment-header{
