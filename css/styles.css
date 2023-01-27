@@ -387,7 +387,6 @@ section.hero .heroj {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: top;
 }
 
 .newsletter-bgr {
@@ -642,7 +641,6 @@ section.hero .heroj {
 
 /* -------------------------FORMS ------------------------- */
 .form__input {
-  display: block;
   padding: .5rem;
   border: solid 1px var(--clr-accent-700);
   border-radius: 4px;
