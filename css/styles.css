@@ -378,18 +378,16 @@ section.hero .heroj {
 }
 
 /* ----------------------------NEWSLETTER----------------------------------*/
-.contact-wrapper {
-  margin: auto;
+.newsletter {
+  background-color: var(--clr-primary-200);
+  color: var(--clr-neutral-900);
+  }
+
+.newsletter-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: top;
-}
-
-
-.newsletter {
-  background-color: var(--clr-primary-200);
-  color: var(--clr-neutral-900);
 }
 
 .newsletter-bgr {
@@ -621,6 +619,14 @@ section.hero .heroj {
 
 .about img {
   padding: .5rem;
+}
+
+.contact-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
 }
 
 .contact-bgr {
@@ -927,5 +933,6 @@ textarea:focus {
     padding: .5rem 2rem;
     list-style-type: none;
   }
+
 
 }
