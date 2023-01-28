@@ -365,6 +365,13 @@ section.hero .heroj {
   display: none;
 }
 
+.jacket-title {
+  font-family: "inter", arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-bottom: 0.5rem;
+}
+
 /* ----------------------------NEW-HERO----------------------------*/
 .hero-new {
   background: url("../images/rainydays-newprod-small.jpg") no-repeat center;
