@@ -505,6 +505,10 @@ section.hero .heroj {
   grid-row: 3 / 4;
 }
 
+.order-items_title {
+  font-size: 24px;
+}
+
 .payment-detail {
   margin-top: 1rem;
   padding: 1rem;
