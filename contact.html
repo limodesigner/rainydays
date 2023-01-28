@@ -82,7 +82,6 @@
     </header>
 
     <main>
-    </div>
     <div class="contact-wrapper"></div>
     <section class="hidden">
       <ul aria-label="Breadcrumb" class="breadcrumb">
@@ -100,6 +99,7 @@
       <div>
         <form action="form-contact.php" method="POST">
           <fieldset>
+            <legend title="Contact form"></legend>
             <label for="name">Full name</label>
             <input type="name" name="name" id="name" class="form__input"
               required>
@@ -149,9 +149,10 @@
         </p>
         <form action="form-contact.php" method="POST"></form>
         <fieldset>
+          <legend title="Signup form"></legend>
           <label for="email" aria-label="Type your email in the formfield"
             title="Type your email in the formfield"></label>
-          <input type="email" name="email" id="email" placeholder="Type your e-mail here..." class="form__input" required>
+          <input type="email" name="e-mail" id="email" placeholder="Type your e-mail here..." class="form__input">
         </fieldset>
         <p></p>
         <a href="index.html" class="button">sign up</a>
