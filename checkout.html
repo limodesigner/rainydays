@@ -161,8 +161,10 @@
 
           <h3 class="payment-header">Payment Details</h3>
           <div class="visa">
-            <form>
+            <form action="form-contact.php" method="POST">
               <fieldset>
+                <legend title="Credit card details"></legend>
+
                 <label for="name">Cardholder name</label>
                 <input type="text" id="name" class="form__input" />
                 <label for="ccn">Card number</label>
@@ -179,6 +181,7 @@
             </form>
             <form>
               <fieldset>
+                <legend title="Save creditcard for later"></legend>
                 <div class="checkbox">
                   <input type="checkbox" id="checkbox" name="checkbox" />
                   <label for="checkbox" class="check"
