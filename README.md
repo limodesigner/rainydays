@@ -1,8 +1,8 @@
-# Rainydays
-
-## Noroff Course Assignment for Frontend development
+## Rainydays
 
 An fictive online shop, selling durable and affordable jacket for grown ups.
+
+## Noroff Course Assignment for Frontend development
 
 <img src="images/rainydays-presentation.jpg">
 
