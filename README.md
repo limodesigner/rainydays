@@ -1,15 +1,15 @@
 <img src="images/rainydays-presentation.jpg">
 
-<background-color="#eae4dd">
+# Rainydays
 
-## Rainydays - An fictive online shop, selling durable and affordable jacket for grown ups.
+## - An fictive online shop, selling durable and affordable jacket for grown ups.
 
-# What was the brief?
+## What was the brief?
 
 In this course assignment we were given the task of developing Rainydays, our own designed prototype from last course assignment. The site should become a functional, well presented website written with HTML and CSS only. There were several criteria to be met, such as neat semantic, responsiveness and CSS after the DRY principles. We could use Flexbox and Grid where appropriate, and the site should be WCAG compliant. Accessibility should be taken into account.
 We were not allowed to use framework, so I did all the coding myself.
 
-# What was my experience and what to do next time?
+## What was my experience and what to do next time?
 
 After looking at my prototype in Figma, I decided that I had to change a few of the container-elements, so it would work better on all the different screen sizes. Mostly this had to do about the order of images and text, so the site would be easier to the readers.
 Example: on the product-page, I took the liberty to reorder the CTA buy-button, and placed it before the illustration images of the jacket.
@@ -25,7 +25,7 @@ When i put a dot in the span-area, the error disappeared, but I don't want a dot
 In this course assignment, I learned that next time, I will be more considerate when planning mye design and use of real estate on bigger screens. This, I think will save me a lot of time in the long run. Whit my gained experience, I also will do better choices when planning a site.
 Also I will be more aware on my use of typography and what words I use to describe content in HTML and CSS, which i still find challenging.
 
-# How i got there
+## How i got there
 
 - Figma / Adobe
 - GitHub / VS Code
@@ -37,7 +37,7 @@ Also I will be more aware on my use of typography and what words I use to descri
 - HTML
 - CSS
 
-# What helped me achieve this?
+## What helped me achieve this?
 
 - https://developer.mozilla.org/en-US/
 - https://www.w3schools.com/
@@ -56,10 +56,10 @@ Text rewritten:
 - https://www.rei.com/
 - https://eu.patagonia.com/gb/en/home/
 
-# Who helped me when i felt blue
+## Who helped me when i felt blue
 
 - Kenneth Collins and Fredrik Rustad
 
-## Want to take a look at my Rainydays?
+# Want to take a look at my Rainydays?
 
 Netlify: https://rainydays-everydayjackets.netlify.app
