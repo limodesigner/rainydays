@@ -1,30 +1,65 @@
-## Brief
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+<img src="images/rainydays-presentation.jpg">
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+<background-color="#eae4dd">
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
--Each page should have a unique  meta name="description", title, and h1.
--You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+## Rainydays - An fictive online shop, selling durable and affordable jacket for grown ups.
 
-## Level 1 Process
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. Go through the marking criteria and ensure your website meets each criteria.
-8. When your site is ready, post it on the Moodle forum for peer review.
-9. Look at the work of your peers and write a review for them. If you post your website for peer review more than five days before the CA deadline, a teacher will write a review of your website for additional feedback.
-10. Make adjustments based on their feedback.
-11. Submit on Moodle.
+# What was the brief?
 
-## Submission
-You need to submit the following:
+In this course assignment we were given the task of developing Rainydays, our own designed prototype from last course assignment. The site should become a functional, well presented website written with HTML and CSS only. There were several criteria to be met, such as neat semantic, responsiveness and CSS after the DRY principles. We could use Flexbox and Grid where appropriate, and the site should be WCAG compliant. Accessibility should be taken into account.
+We were not allowed to use framework, so I did all the coding myself.
 
-- A link to your GitHub repository. Your last commit must be before your deadline.
-- A link to your website, live on Netlify.
+# What was my experience and what to do next time?
+
+After looking at my prototype in Figma, I decided that I had to change a few of the container-elements, so it would work better on all the different screen sizes. Mostly this had to do about the order of images and text, so the site would be easier to the readers.
+Example: on the product-page, I took the liberty to reorder the CTA buy-button, and placed it before the illustration images of the jacket.
+
+My site is working great on all screen sizes from 300px up to 3000px +, and with only one media query. I had to alter some of the images from 390px up to 800px, to make them better looking on tablets.
+When checking my site with the WCAG, one of the colors were not compliant, so I had to tweak the color and make it a bit darker for contrast. After my opinion, this did not affect the overall design.
+I had made an newsletter pop-up in Figma, which i decided to make static on some of my pages, since we are not doing Javascipt at the moment. I did some research on a CSS pop-up, but I did not like how it turned out. I would do a pop-up next time. Also, I did not plan for animation, so the only animation I have on Rainydays at the moment, lies in the hamburger menu.
+
+I got several and great feedback from my tutor and peers, that helped me along the way, bettering my design and code.
+My main concern in ths project, was my hamburger menu. I got several tips from my tutor and peers, but none of them worked. After several hours trying all kinds of tricks, Wave.webaim.org still tells me that i have an error in my navbar, and that I should add a title to my label - which i did. They stated that: "If a label is not necessary visually, a descriptive title attribute may be added to the form control."
+When i put a dot in the span-area, the error disappeared, but I don't want a dot in my hamburger-menu. Better luck with Javascript, I think.
+
+In this course assignment, I learned that next time, I will be more considerate when planning mye design and use of real estate on bigger screens. This, I think will save me a lot of time in the long run. Whit my gained experience, I also will do better choices when planning a site.
+Also I will be more aware on my use of typography and what words I use to describe content in HTML and CSS, which i still find challenging.
+
+# How i got there
+
+- Figma / Adobe
+- GitHub / VS Code
+- Netlify
+- Chrome Developer tools
+- Google fonts
+- Wave from Webaim / Validator from w3school
+
+- HTML
+- CSS
+
+# What helped me achieve this?
+
+- https://developer.mozilla.org/en-US/
+- https://www.w3schools.com/
+- https://wave.webaim.org/
+- https://validator.w3.org/
+- Emily Kay at LinkedIn learning
+  (https://www.linkedin.com/learning/css-combining-grid-and-flexbox/functions-and-keywords?autoplay=true&u=43268076)
+
+Images:
+
+- https://www.hellyhansen.com/
+- https://unsplash.com/
+
+Text rewritten:
+
+- https://www.rei.com/
+- https://eu.patagonia.com/gb/en/home/
+
+# Who helped me when i felt blue
+
+- Kenneth Collins and Fredrik Rustad
+
+## Want to take a look at my Rainydays?
+
+Netlify: https://rainydays-everydayjackets.netlify.app
