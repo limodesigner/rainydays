@@ -120,6 +120,10 @@ a:active {
   border-radius: 4px;
 }
 
+menu {
+  visibility: hidden;
+}
+
 header {
   position: fixed;
   width: 100%;
