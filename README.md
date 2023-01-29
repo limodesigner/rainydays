@@ -61,6 +61,6 @@ Text rewritten:
 
 - Kenneth Collins and Fredrik Rustad
 
-## Want to take a look at my Rainydays?
+## Do you want to take a look at my Rainydays?
 
 Netlify: https://rainydays-everydayjackets.netlify.app
