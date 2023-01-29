@@ -1,8 +1,8 @@
-<img src="images/rainydays-presentation.jpg">
-
 # Rainydays Noroff Course Assignment / Frontend development
 
-- An fictive online shop, selling durable and affordable jacket for grown ups.
+An fictive online shop, selling durable and affordable jacket for grown ups.
+
+<img src="images/rainydays-presentation.jpg">
 
 ## What was the brief?
 
@@ -60,6 +60,6 @@ Text rewritten:
 
 - Kenneth Collins and Fredrik Rustad
 
-# Want to take a look at my Rainydays?
+## Want to take a look at my Rainydays?
 
 Netlify: https://rainydays-everydayjackets.netlify.app
