@@ -24,8 +24,7 @@ I got several and great feedback from my tutor and peers, that helped me along t
 My main concern in ths project, was my hamburger menu. I got several tips from my tutor and peers, but none of them worked. After several hours trying all kinds of tricks, Wave.webaim.org still tells me that i have an error in my navbar, and that I should add a title to my label - which i did. They stated that: "If a label is not necessary visually, a descriptive title attribute may be added to the form control."
 When i put a dot in the span-area, the error disappeared, but I don't want a dot in my hamburger-menu. Better luck with Javascript, I think.
 
-In this course assignment, I learned that next time, I will be more considerate when planning mye design and use of real estate on bigger screens. This, I think will save me a lot of time in the long run. Whit my gained experience, I also will do better choices when planning a site.
-Also I will be more aware on my use of typography and what words I use to describe content in HTML and CSS, which i still find challenging.
+In this course assignment, I learned that next time, I will be more considerate when planning my design and my use of real estate on bigger screens. This, I think will save me a lot of time in the long run. With my gained experience, I also will do better choices in the responsive departement, planning for it, in the early days of a project. Also I will be more aware on my use of H and typography, and what words I use to describe content in HTML and CSS. I still find this challenging, and want to learn more.
 
 ## How i got there
 
