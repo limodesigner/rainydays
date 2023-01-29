@@ -45,7 +45,7 @@ In this course assignment, I learned that next time, I will be more considerate 
 - https://wave.webaim.org/
 - https://validator.w3.org/
 - Emily Kay at LinkedIn learning
-  (https://www.linkedin.com/learning/css-combining-grid-and-flexbox/functions-and-keywords?autoplay=true&u=43268076)
+  (https://www.linkedin.com/learning/css-combining-grid-and-flexbox/)
 
 Images:
 
