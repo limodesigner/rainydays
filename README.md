@@ -13,7 +13,7 @@ We were not allowed to use framework, so I did all the coding myself.
 
 ## What was my experience and what to do next time?
 
-After looking at my prototype in Figma, I decided that I had to change a few of the container-elements, so it would work better on all the different screen sizes. Mostly this had to do about the order of images and text, so the site would be easier to the readers.
+After looking at my prototype in Figma, I decided that I had to change a few of the container-elements, so it would work better on all the different screen sizes. Mostly this had to do with the order of images and text, so the site would be easier to the readers.
 Example: on the product-page, I took the liberty to reorder the CTA buy-button, and placed it before the illustration images of the jacket.
 
 My site is working great on all screen sizes from 300px up to 3000px +, and with only one media query. I had to alter some of the images from 390px up to 800px, to make them better looking on tablets.
