@@ -1,8 +1,8 @@
 <img src="images/rainydays-presentation.jpg">
 
-# Rainydays
+# Rainydays Noroff Course Assignment / Frontend development
 
-## - An fictive online shop, selling durable and affordable jacket for grown ups.
+- An fictive online shop, selling durable and affordable jacket for grown ups.
 
 ## What was the brief?
 
