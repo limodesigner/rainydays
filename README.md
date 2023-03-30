@@ -1,6 +1,6 @@
 # Rainydays
 
-An fictive online shop, selling durable and affordable jacket for grown ups.
+An (fake) online shop, selling durable and affordable jacket for grown ups.
 
 ## Noroff Course Assignment for Frontend development
 
