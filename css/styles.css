@@ -408,10 +408,10 @@ section.hero .heroj {
 
 .newsletter {
   margin: auto;
-  background-color: var(--clr-primary-200);
-  color: var(--clr-primary-900);
+  background-color: var(--clr-primary-900);
+  color: var(--clr-primary-300);
   border: none;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
 .newsletter-bgr {
