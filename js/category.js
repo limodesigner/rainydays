@@ -9,20 +9,19 @@ async function getProducts() {
 
     productsContainer.innerHTML = "";
 
-    for (let i = 9; i < products.length; i++) {
+    products.forEach(function (products) {
       productsContainer.innerHTML += `
-      <div class="product-item">
-          <img src="${products[i].image}" alt="${products[i].description}" />
-          <h4>${products[i].title}</h4>
-                <button class="button"><a href="product.html?id=${products[i].id}">Explore</a></button>
-      </div>
+      <a href="product.html?id=${products.id}" class="product-item">      
+          <img src="${products.image}" alt="${products.description}" />
+          <h4>${products.title}</h4>
+          <p>&euro; ${products.price}</p>
+                <p class="button_category">View more</p>
+      </a>
       `;
-    }
+    });
   } catch (error) {
     console.error({ error: "Could not load content" });
   }
 }
 
 getProducts();
-
-// const indexProductsContainer = productsContainer.slice(0,3);
