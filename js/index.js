@@ -24,5 +24,3 @@ async function getProducts() {
 }
 
 getProducts();
-
-// const indexProductsContainer = productsContainer.slice(0,3);

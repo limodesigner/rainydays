@@ -41,7 +41,7 @@
           <span class="material-symbols-outlined shopping-bag">
             shopping_bag
           </span></a>
-        <input type="checkbox" id="navToggle" class="navToggle" title="Hamburger" />
+        <input type="checkbox" id="navToggle" class="navToggle" title="Hamburger" aria-label="menu" />
         <label for="navToggle" class="navToggleLabel"><span title="hamburger-open-close"></span></label>
         <nav>
           <ul>
@@ -139,16 +139,17 @@
               <legend title="Credit card details"></legend>
 
               <label for="name">Cardholder name</label>
-              <input type="text" id="name" class="form__input" />
+              <input type="text" id="name" class="form__input" aria-label="cardholder name" />
               <label for="ccn">Card number</label>
-              <input type="tel" id="ccn" maxlength="19" placeholder="1234 5678 xxxx xxx9" class="form__input" />
+              <input type="tel" id="ccn" maxlength="19" placeholder="1234 5678 xxxx xxx9" class="form__input"
+                aria-label="cardnumber" />
             </fieldset>
           </form>
           <form>
             <fieldset>
               <legend title="Save creditcard for later"></legend>
               <div class="checkbox">
-                <input type="checkbox" id="checkbox" name="checkbox" />
+                <input type="checkbox" id="checkbox" name="checkbox" aria-label="save card for later" />
                 <label for="checkbox" class="check">Save card detail for future orders.</label>
               </div>
             </fieldset>

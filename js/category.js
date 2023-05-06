@@ -1,6 +1,9 @@
 const productsContainer = document.querySelector(".products");
 
+
 const baseUrl = "https://api.noroff.dev/api/v1/rainy-days";
+
+
 
 async function getProducts() {
   try {
@@ -25,3 +28,4 @@ async function getProducts() {
 }
 
 getProducts();
+

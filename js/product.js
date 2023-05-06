@@ -3,11 +3,12 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
-const baseUrl = "https://api.noroff.dev/api/v1/rainy-days/" + id;
+const baseUrl = "https://api.noroff.dev/api/v1/rainy-days";
+const specificUrl = baseUrl + `/${id}`;
 
 async function getProduct() {
   try {
-    const response = await fetch(baseUrl);
+    const response = await fetch(specificUrl);
     const product = await response.json();
     createHtml(product);
   } catch (error) {
@@ -16,9 +17,6 @@ async function getProduct() {
 }
 
 getProduct();
-
-const changeTitle = document.title;
-
 
 function createHtml(product) {
   productContainer.innerHTML = `
@@ -33,4 +31,7 @@ function createHtml(product) {
       </div>
     </div>
 `;
+
+  const changeTitle = document.getElementsByClassName("newtitle").innerText;
+  document.title = `${product.title}`;
 }
