@@ -34,7 +34,4 @@ function createHtml(product) {
 
   const changeTitle = document.getElementsByClassName("newtitle").innerText;
   document.title = `${product.title}`;
-
-  const changeCrumbs = document.getElementsByClassName("crumbs").innerText;
-  document.title = `${product.title}`;
 }
