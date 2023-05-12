@@ -25,6 +25,17 @@
   <script src="./js/index.js" defer></script>
   <script src="./js/loader.js" defer></script>
   <script src="./js/modal.js" defer></script>
+  <!-- Hotjar Tracking Code for https://rainydays-everydayjackets.netlify.app/ -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3489076, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 </head>
 
@@ -111,7 +122,7 @@
             <form class="form-modal" method="dialog">
               <label for="subscribe" aria-label="Type your email in the form" title="Type your email in the form">
                 <input type="email" name="email" id="subscribe" placeholder="Type your e-mail here..."
-                  class="form__input-modal" aria-label="email"/>
+                  class="form__input-modal" aria-label="email" />
                 <div class="form-error" id="emailError">Please enter a valid email</div>
 
                 <button class="button close-button">Sign up</button>
