@@ -1,4 +1,5 @@
 @import url("loader.css");
+@import url("addcart.css");
 @import url("contact.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Roboto+Serif:opsz,wght@8..144,600&display=swap");
 
@@ -179,11 +180,6 @@ footer {
   margin-bottom: 0.5rem;
 }
 
-.cart {
-  height: 30px;
-  padding-right: 0.5rem;
-}
-
 .navWrap {
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -361,10 +357,17 @@ section.hero .heroj {
 }
 
 .button_category {
-  margin-top: 0.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   font-size: 1rem;
   background-color: var(--clr-accent-500);
   color: var(--clr-primary-900);
+}
+
+.price {
+  margin-bottom: 1rem;
 }
 
 /* API */
@@ -439,28 +442,21 @@ p.padding-top {
   padding-bottom: 1.5rem;
 }
 
-.product-items {
-  margin: 1rem;
-  flex-direction: column;
-  flex: 260px 1 0;
-  height: auto;
-  border: solid 1px var(--clr-neutral-300);
-  box-shadow: var(--clr-shadow-100);
-}
-
 .product-item {
   display: flex;
   margin: 1rem;
   flex-direction: column;
-  flex: 186px 1 0;
+  flex: 270px 1 0;
   position: relative;
   height: auto;
-  border: solid 1px var(--clr-neutral-300);
-  box-shadow: var(--clr-shadow-100);
+  box-shadow: 1px 1px 4px 1px rgba(166, 166, 166, 0.75);
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(166, 166, 166, 0.75);
+  -moz-box-shadow: 1px 1px 4px 1px rgba(166, 166, 166, 0.75);
+  padding-bottom: 1rem;
 }
 
 .product-item p {
-  padding: 0;
+  padding: 0.5rem;
 }
 
 .product-item .button {
@@ -805,10 +801,10 @@ p.padding-top {
     flex-direction: row-reverse;
   }
 
-  .cart {
+  /* .cart {
     width: 48px;
     height: 42px;
-  }
+  } */
 
   .navToggleLabel {
     display: none;
