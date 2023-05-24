@@ -24,3 +24,5 @@ async function getProducts() {
 }
 
 getProducts();
+
+

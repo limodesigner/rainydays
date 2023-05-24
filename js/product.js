@@ -35,3 +35,6 @@ function createHtml(product) {
   const changeTitle = document.getElementsByClassName("newtitle").innerText;
   document.title = `${product.title}`;
 }
+
+const d = new Date();
+document.getElementById("currentYear").innerHTML = d.getFullYear();

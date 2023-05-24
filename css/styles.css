@@ -34,20 +34,20 @@ label {
   font-size: 100%;
 }
 
-html,
-body {
-  position: relative;
+html {
   height: 100%;
 }
 
 body {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 10rem;
   font-family: "Inter", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
   font-size: 1rem;
   line-height: 1.4rem;
   background-color: var(--clr-neutral-100);
   color: var(--clr-primary-900);
-
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -142,6 +142,10 @@ footer {
   padding: 1rem;
   background-color: var(--clr-primary-900);
   color: var(--clr-neutral-100);
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .footer_display {
@@ -530,6 +534,18 @@ p.padding-top {
 
 .modal::backdrop {
   background: rgb(0 0 0 / 0.6);
+}
+
+.signup-bgr {
+  background: url("../images/rainydays-newsletter-signup.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.signup-text {
+  width: 100%;
+  padding: 3rem;
+  background-color: var(--clr-neutral-100);
+  opacity: 0.8;
 }
 
 /* ----------------------------FOOTER----------------------------------*/
