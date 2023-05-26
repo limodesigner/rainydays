@@ -545,12 +545,12 @@ p.padding-top {
 
 .signup-bgr {
   background-color: var(--clr-accent-200);
+}
 
 .signup-text {
   color: var(--clr-neutral-900);
   width: 100%;
   padding: 3rem;
-
 }
 
 .news {
