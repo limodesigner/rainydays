@@ -22,6 +22,10 @@ closeModal.addEventListener("click", () => {
   modal.close();
 });
 
+//copyright year
+const d = new Date();
+document.getElementById("currentYear").innerHTML = d.getFullYear();
+
 //selected items
 
 const productsContainer = document.querySelector(".products");
@@ -50,7 +54,3 @@ async function getProducts() {
 }
 
 getProducts();
-
-//copyright year
-const d = new Date();
-document.getElementById("currentYear").innerHTML = d.getFullYear();

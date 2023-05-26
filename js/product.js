@@ -35,3 +35,5 @@ function createHtml(product) {
   const changeTitle = document.getElementsByClassName("newtitle").innerText;
   document.title = `${product.title}`;
 }
+
+
