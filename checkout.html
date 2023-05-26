@@ -23,8 +23,7 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <script src="./js/modal.js" defer></script>
-  <script src="./js/checkout.js" defer></script>
+  <script src="/js/index.js" type="module"></script>
   <!-- Hotjar Tracking Code for https://rainydays-everydayjackets.netlify.app/ -->
   <script>
     (function (h, o, t, j, a, r) {
@@ -58,7 +57,7 @@
         </a>
         <input type="checkbox" id="navToggle" class="navToggle" title="Hamburger" aria-label="menu" />
         <label for="navToggle" class="navToggleLabel"><span title="hamburger-open-close"><span
-          class="noshow">menu</span></span></label>
+              class="noshow">menu</span></span></label>
         <nav>
           <ul>
             <li>
@@ -170,7 +169,7 @@
             </p>
             <form class="form-modal" method="dialog">
               <label for="subscribe" aria-label="Type your email in the form" title="Type your email in the form">
-                <input type="email" name="email" id="subscribe" placeholder="Type your e-mail here..."
+                <input type="email" name="email" class="news" id="subscribe" placeholder="Type your e-mail here..."
                   class="form__input-modal" />
                 <div class="form-error" id="emailError">Please enter a valid email</div>
 
