@@ -1,3 +1,29 @@
+//loader
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("hide-loader");
+
+  loader.addEventListener("transitioned", () => {
+    document.body.removeChild("loader");
+  });
+});
+
+// newsletter modal popup
+const modal = document.querySelector("#modal");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
+
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
+
+//selected items
+
 const productsContainer = document.querySelector(".products");
 
 const baseUrl = "https://api.noroff.dev/api/v1/rainy-days";
@@ -25,4 +51,6 @@ async function getProducts() {
 
 getProducts();
 
-
+//copyright year
+const d = new Date();
+document.getElementById("currentYear").innerHTML = d.getFullYear();
