@@ -555,6 +555,10 @@ p.padding-top {
   opacity: 0.8;
 }
 
+.news {
+  padding: 0.45rem;
+}
+
 /* ----------------------------FOOTER----------------------------------*/
 .social-icon {
   margin: 0.7rem;
