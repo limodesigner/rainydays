@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Rainydays about page - Read about how we are pushing the comfort zone with designing comfortable and affordable jackets for everyday outdoors." />
-  <meta name="keywords"
-    content="outdoor jackets, affordable jackets, durable jackets, jackets for outdoors, jackets for exploring and camping" />
   <meta name="author" content="Linda Moenstre" />
   <meta name="theme-color" content="#EAE4DD" />
   <meta property="og:title" content="Rainydays jackets online" />
@@ -61,7 +59,7 @@
               <a href="category.html">Jackets</a>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <a href="about.html" class="active">About</a>
             </li>
             <li>
               <a href="contact.html">Contact</a>
@@ -119,7 +117,7 @@
           <p>
             <img src="/images/signature.png" alt="Signed by Ola Normann" />
           </p>
-          <p><a href="category.html" class="button">Go shopping</a></p>
+          <p><a href="contact.html" class="button">Contact us</a></p>
           <p></p>
         </div>
 
@@ -142,10 +140,23 @@
   </main>
 
   <footer class="footer">
-    <div class="footer_display ">
 
-      <button class="button open-button cards">Subscribe</button>
-      <div>
+    <div class="footer-content">
+
+      <div class="footer-padding">
+        <a href="index.html" aria-label="Rainydays homepage"><img src="images/rainydays-logo-footer.png" alt="Welcome to Rainydays website - your everyday jackets found
+            online" aria-hidden="true" /></a>
+      </div>
+
+      <div class="footer-padding">
+        <a href="www.facebook.com" aria-label="Facebook"><i class="social-icon" aria-hidden="true"><img
+              src="images/icon-facebook.png" alt="Open in a new window and navigate to facebook.com" /></i></a>
+        <a href="www.instagram.com" aria-label="Instagram"><i class="icon-social" aria-hidden="true"></i><img
+            src="images/icon-instagram.png" alt="Open in a new window and navigate to instagram.com" /></a>
+      </div>
+
+      <div class=" footer-padding">
+        <button class="button open-button cards">Subscribe</button>
         <dialog class="newsletter" id="modal">
           <div class="newsletter-bgr"></div>
           <div class="newsletter-text">
@@ -156,8 +167,8 @@
             </p>
             <form class="form-modal" method="dialog">
               <label for="subscribe" aria-label="Type your email in the form" title="Type your email in the form">
-                <input type="email" name="email" id="subscribe" placeholder="Type your e-mail here..."
-                  class="form__input-modal" aria-label="email" />
+                <input type="email" name="email" class="news" id="subscribe" placeholder="Type your e-mail here..."
+                  class="form__input-modal" />
                 <div class="form-error" id="emailError">Please enter a valid email</div>
 
                 <button class="button close-button">Sign up</button>
@@ -165,21 +176,12 @@
         </dialog>
       </div>
 
-      <div class="social">
-        <div>
-          <a href="index.html"  aria-label="Rainydays homepage"><img src="images/rainydays-logo-footer.png" alt="Welcome to Rainydays website - your everyday jackets found
-              online" aria-hidden="true" /></a>
-        </div>
-        <div>
-          <a href="www.facebook.com" aria-label="Facebook"><i class="social-icon" aria-hidden="true"><img
-                src="images/icon-facebook.png" alt="Open in a new window and navigate to facebook.com" /></i></a>
-          <a href="www.instagram.com" aria-label="Instagram"><i class="icon-social" aria-hidden="true"></i><img
-              src="images/icon-instagram.png" alt="Open in a new window and navigate to instagram.com" /></a>
-        </div>
-      </div>
     </div>
-    <h3 class="copyright">Copyright &copy; 2022 - <span id="currentYear"></span> Rainydays
-    </h3>
+
+    <div>
+      <h3 class="copyright">Copyright &copy; 2022 - <span id="currentYear"></span> Rainydays
+      </h3>
+    </div>
 
   </footer>
 </body>

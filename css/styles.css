@@ -48,7 +48,6 @@ body {
   line-height: 1.4rem;
   background-color: var(--clr-neutral-100);
   color: var(--clr-primary-900);
-  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -108,11 +107,11 @@ a:focus {
 }
 
 a:hover {
-  color: var(--clr-accent-700);
+  color: #0a0a0a;
 }
 
-a:active {
-  color: var(--clr-accent-200);
+.active {
+  text-decoration: underline;
 }
 
 .button {
@@ -128,6 +127,10 @@ a:active {
   border-radius: 4px;
 }
 
+.material-symbols-outlined.a:hover {
+  background-color: var(--clr-neutral-100);
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -139,7 +142,6 @@ main {
 }
 
 footer {
-  padding: 1rem;
   background-color: var(--clr-primary-900);
   color: var(--clr-neutral-100);
   position: absolute;
@@ -151,6 +153,8 @@ footer {
 .footer_display {
   display: flex;
   flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
 }
 
 /* ----------------------------NAVIGATION-----------------------------*/
@@ -296,12 +300,11 @@ nav ul li a {
   display: inline-block;
   width: 100%;
   padding: 1.8rem;
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-900);
   transition: 0.32s ease-in-out;
 }
 
 nav ul li a:hover {
-  color: var(--clr-accent-700);
   background: var(--clr-accent-200);
 }
 
@@ -566,6 +569,10 @@ p.padding-top {
   margin: 0.7rem;
 }
 
+.footer-padding {
+  padding-top: 1rem;
+}
+
 .social {
   width: min(500px, 100%);
   margin: auto;
@@ -577,6 +584,14 @@ p.padding-top {
   margin: 0.75rem 0 0 0;
   font-weight: lighter;
   text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
 }
 
 /* ----------------------------PRODUCT----------------------------------*/
@@ -830,11 +845,6 @@ p.padding-top {
     flex-direction: row-reverse;
   }
 
-  /* .cart {
-    width: 48px;
-    height: 42px;
-  } */
-
   .navToggleLabel {
     display: none;
   }
@@ -856,6 +866,10 @@ p.padding-top {
 
   nav ul li a:hover {
     background: transparent;
+  }
+
+  nav a:hover {
+    color: var(--clr-accent-700);
   }
 
   nav::after,
