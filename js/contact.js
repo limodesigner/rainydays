@@ -7,7 +7,7 @@ const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
 const messageSuccess = document.querySelector("#messageSuccess");
 
-function validateForm() {
+function validateForm(event) {
   event.preventDefault();
 
   if (checkLength(name.value, 0) === true) {
