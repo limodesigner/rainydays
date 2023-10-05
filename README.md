@@ -73,3 +73,11 @@ Text rewritten:
 ## Do you want to take a look at my Rainydays?
 
 Netlify: https://rainydays-everydayjackets.netlify.app
+
+## Taking a closer look and run the app?
+
+Clone the repo and install with npm install command in you editors terminal. Run the app by npm run start.
+
+# Contact
+linda@digitaldesigner.no - let's work togheter!
+
